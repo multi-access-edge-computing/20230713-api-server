@@ -1,0 +1,19 @@
+{
+  "name": "0713-api-server-example",
+  "version": "1.0.44",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.370.0",
+    "@aws-sdk/lib-dynamodb": "^3.370.0",
+    "@faker-js/faker": "^8.0.2",
+    "@tensorflow/tfjs-node": "^4.8.0",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
